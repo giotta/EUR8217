@@ -19,21 +19,21 @@ Mon objectif est de coder les mêmes exercices en R et en Python.
 
 La science doit être ouverte. Elle doit donc reposer sur des outils ouverts et des données ouvertes. Comment reproduire les résultats autrement?
 
-Ci-dessous les instructions pour créer un environnement technique ouvert, identique à celui que j'ai utilisé.
+Ci-dessous les instructions pour créer un **environnement technique scientifique ouvert**, identique à celui que j'ai utilisé.
 
 Essentiellement, il s'agit d'un environnement technique qui peut être installé 
 par n'importe qui, sur n'importe quel ordinateur, et qui offre une suite scientifique complète et ouverte, 
 notamment pour les statistiques.
 
-L'environnement technique repose sur Anaconda, un package manager à l'origine pour Python mais qui supporte plusieurs langages, notamment R. Anaconda, avec son utilitaire `conda`, simplifie grandement la gestion des paquets. Il s'agit d'un logiciel open source créé par la compagnie Continuum Analytics.
+L'environnement technique repose sur **Anaconda**, un package manager à l'origine pour **Python** mais qui supporte plusieurs langages, notamment **R**. Anaconda, avec son utilitaire `conda`, simplifie grandement la gestion des paquets. Il s'agit d'un logiciel open source créé par la compagnie Continuum Analytics.
 
 Anaconda s'installe "localement" dans le répertoire de votre utilisateur (`home`). Pas besoin d'avoir les droits d'administrateur sur votre machine (on n'installe rien "côté système")... si vous voulez supprimer ensuite Anaconda, vous n'avez qu'à supprimer le répertoire où il a été installé (par défaut `anaconda` ou `anaconda3`).
 
-En installant Anaconda, on installe par défaut Jupyter qui permet la création de notebook : du code que l'on peut encadrer de texte et qu'on peut exécuter interactivement... et exporter/partager.
+En installant Anaconda, on installe par défaut **Jupyter** qui permet la création de notebook : du code que l'on peut encadrer de texte et qu'on peut exécuter interactivement... et exporter/partager.
 
 Jupyter peut gérer du code R ou Python, pour peu que R ait été installé. On installera R avec conda.
 
-Jupyter permet de saisir du texte avec la syntaxe Markdown : utile pour mettre des titres, commenter, mettre des liens, lister des étapes, etc.
+Jupyter permet de saisir du texte avec la syntaxe **Markdown** : utile pour mettre des titres, commenter, mettre des liens, lister des étapes, etc.
 
 ## Pré-requis technique
 
@@ -68,6 +68,12 @@ https://www.r-project.org/
 $ conda install -c r r-essentials
 ```
 
+## Python
+
+https://www.python.org/
+
+* installé par défaut avec Anaconda
+
 ## Autres ressources pour R avec Jupyter
 
 * https://www.continuum.io/blog/developer/jupyter-and-conda-r
@@ -75,7 +81,7 @@ $ conda install -c r r-essentials
 
 # Utilisation
 
-Un coup, l'environnement technique créé lancer Jupyter pour coder en R ou Python et rédiger en Markdown!
+Un coup l'environnement technique créé, lancer Jupyter pour coder en R ou Python et rédiger en Markdown!
 
 ## Jupyter
 
