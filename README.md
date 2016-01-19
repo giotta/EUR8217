@@ -116,6 +116,29 @@ https://daringfireball.net/projects/markdown/syntax
 * utilisé dans Jupyter pour les blocs de texte
 * voir le lien pour la syntaxe officielle : https://daringfireball.net/projects/markdown/syntax
 
+# R et Python dans un même notebook
+
+* installer un module Python qui communique avec R
+```
+$ pip install rpy2
+```
+* dans Jupyter, charger l'extension ipython (ancien nom de Jupyter) disponible dans le module rpy2 installé (idéalement en début de fichier, avant les import Python)
+```
+%load_ext rpy2.ipython
+```
+* commencer ses *code cells* avec `%%R`
+* utiliser en *inline* R dans du code Python avec `%R -o` et `%R -i` (ex.: passer array numpy à R)
+
+## Autres approches (moins intéressantes)
+
+* http://www.kdnuggets.com/2015/12/using-python-r-together.html
+* [Beaker Notebook][http://decisionstats.com/2015/12/07/decisionstats-interview-scott-draves-beaker-notebook/]
+    * https://github.com/twosigma/beaker-notebook/wiki/Roadmap
+
+# Remerciements
+
+* Merci à deuxpi de Montréal-Python pour R dans Python
+
 ---
 
 [0894]:http://www.inrs.ca/static/prog/UCS-ProgrammeCourtDe2ECycleEnAnalyseDeDonneesSpatial-0894.html
