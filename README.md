@@ -67,6 +67,7 @@ https://www.r-project.org/
 ```
 $ conda install -c r r-essentials
 ```
+* on peut installer des packages R au besoin, dans les notebooks
 
 ## Python
 
@@ -115,6 +116,18 @@ https://daringfireball.net/projects/markdown/syntax
 
 * utilisé dans Jupyter pour les blocs de texte
 * voir le lien pour la syntaxe officielle : https://daringfireball.net/projects/markdown/syntax
+
+## R
+
+Pour installer de nouveaux packages R, il faut fournir le repo voulu
+* ce code ne suffit pas
+```
+install.packages("nortest")
+```
+* ce code fonctionne
+```
+install.packages("nortest", repos="http://cran.rstudio.com/")
+```
 
 # R et Python dans un même notebook
 
