@@ -61,6 +61,7 @@ https://www.continuum.io/why-anaconda
 ## R
 
 https://www.r-project.org/
+https://journal.r-project.org/
 
 * ouvrir un terminal
 * installer les packages r
@@ -147,6 +148,31 @@ $ pip install rpy2
 * http://www.kdnuggets.com/2015/12/using-python-r-together.html
 * [Beaker Notebook][http://decisionstats.com/2015/12/07/decisionstats-interview-scott-draves-beaker-notebook/]
     * https://github.com/twosigma/beaker-notebook/wiki/Roadmap
+
+# Packages Python
+
+```
+$ pip install -r requirements.txt
+```
+
+# Impression
+
+On peut convertir un Jupyter notebook en PDF.
+Sur votre système (ici : Linux basé sur Debian, ex.: Ubuntu 14.04), pandoc et latex doivent être installés:
+```
+$ sudo apt-get install pandoc
+$ sudo apt-get install tex-common texlive-latex-base texlive-lang-french
+sudo apt-get install --no-install-recommends texlive-latex-extra
+sudo apt-get install --no-install-recommends  texlive-fonts-recommended 
+```
+
+Pour imprimer en ligne de commande :
+```
+$ jupyter nbconvert /labo/labo2.ipynb --to pdf
+```
+
+Pour imprimer via interfaces graphiques :
+* File > Download as > PDF via LaTeX (.pdf)
 
 # Remerciements
 
