@@ -163,7 +163,8 @@ Sur votre système (ici : Linux basé sur Debian, ex.: Ubuntu 14.04), pandoc et 
 $ sudo apt-get install pandoc
 $ sudo apt-get install tex-common texlive-latex-base texlive-lang-french
 sudo apt-get install --no-install-recommends texlive-latex-extra
-sudo apt-get install --no-install-recommends  texlive-fonts-recommended 
+sudo apt-get install --no-install-recommends texlive-fonts-recommended
+sudo apt-get install --no-install-recommends texlive-generic-recommended
 ```
 
 Pour imprimer en ligne de commande :
