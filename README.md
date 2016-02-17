@@ -21,8 +21,8 @@ La science doit être ouverte. Elle doit donc reposer sur des outils ouverts et 
 
 Ci-dessous les instructions pour créer un **environnement technique scientifique ouvert**, identique à celui que j'ai utilisé.
 
-Essentiellement, il s'agit d'un environnement technique qui peut être installé 
-par n'importe qui, sur n'importe quel ordinateur, et qui offre une suite scientifique complète et ouverte, 
+Essentiellement, il s'agit d'un environnement technique qui peut être installé
+par n'importe qui, sur n'importe quel ordinateur, et qui offre une suite scientifique complète et ouverte,
 notamment pour les statistiques.
 
 L'environnement technique repose sur **Anaconda**, un package manager à l'origine pour **Python** mais qui supporte plusieurs langages, notamment **R**. Anaconda, avec son utilitaire `conda`, simplifie grandement la gestion des paquets. Il s'agit d'un logiciel open source créé par la compagnie Continuum Analytics.
@@ -155,6 +155,16 @@ $ pip install rpy2
 $ pip install -r requirements.txt
 ```
 
+Si erreur avec pip install, télécharger manuellement les sources de pipy et installez-les avec pip en local
+ex.:
+* download tar.gz de https://pypi.python.org/pypi/sas7bdat
+* extract
+* install with pip
+
+```
+$ pip install ./sas7bdat-2.0.7
+```
+
 # Impression
 
 On peut convertir un Jupyter notebook en PDF.
@@ -178,6 +188,11 @@ Pour imprimer via interfaces graphiques :
 # Remerciements
 
 * Merci à deuxpi de Montréal-Python pour R dans Python
+
+# Références
+
+* http://www.math.univ-toulouse.fr/~besse/Wikistat/pdf/st-tutor1-python-start.pdf
+* https://www.kevinsheppard.com/images/0/09/Python_introduction.pdf
 
 ---
 

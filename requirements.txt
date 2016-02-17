@@ -1,0 +1,16 @@
+# Packages Python s'installant avec pip
+# $ pip install -r requirements.txt
+
+# R dans Python
+rpy2
+
+# import de fichiers DBase .dbf
+simpledbf
+
+# import de fichiers SPSS .sav
+# https://pypi.python.org/pypi/savReaderWriter/
+#savReaderWriter
+
+# import de fichiers SAS
+# https://pypi.python.org/pypi/sas7bdat
+sas7dbat

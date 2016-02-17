@@ -1,8 +1,11 @@
 # matériel perso
-matos/
+private/
 
 # matériel du cours
 moodle/
 
 # données des labos
-labos/data/
+labo/data/
+
+# TP du cours
+TP/
